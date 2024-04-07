@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "/assets/images/bio-photo.jpg"
-  name             : ""Fatih S. Sarikurt, Ph.D."
+  name             : "Fatih S. Sarikurt, Ph.D."
   pronouns         : # example: "she/her"  
   bio              : "Principal Engineer with a Ph.D. in Nuclear Engineering. Expertise in nuclear reactor design, high-fidelity CFD applications, multiphysics, and multiscale modeling of nuclear reactor systems."
   location         : "Seattle"
