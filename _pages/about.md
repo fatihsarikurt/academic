@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Fatih Sinan SARIKURT"
 author_profile: true
 redirect_from: 
   - /about/
