@@ -1,8 +1,11 @@
 ---
-permalink: /about/
+-permalink: /
 title: "About"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
-
 Hi! I'm a Principal Engineer in Thermal Hydraulics at TerraPower, and I've been working in the field for over 13 years. My expertise lies in high-fidelity CFD applications, multiphysics, and multiscale modeling of nuclear reactor systems. I hold a Ph.D. and M.Sc. in Nuclear Engineering from Texas A&M University and a Bachelor of Science in Nuclear Engineering from Hacettepe University, where I had the honor of graduating as the top student in my class.
 
 Throughout my career, I have made significant contributions to the industry, including:
