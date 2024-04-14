@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Fatih S. Sarikurt, Ph.D."
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Fatih S. Sarikurt, Ph.d."
 description              : &description "personal description"
 url                      : https://fatihsarikurt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,7 +21,7 @@ repository               : "fatihsarikurt/fatihsarikurt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "bio-photo.jpg"
   name             : "Fatih S. Sarikurt, Ph.D."
   pronouns         : # example: "she/her"  
   bio              : "Principal Engineer with a Ph.D. in Nuclear Engineering. Expertise in nuclear reactor design, high-fidelity CFD applications, multiphysics, and multiscale modeling of nuclear reactor systems."
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://scholar.google.com/citations?user=vaZyCtIAAAAJ&hl"
+  linkedin         : "https://www.linkedin.com/in/fatih-sinan-sarikurt/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
