@@ -7,21 +7,27 @@ author_profile: true
 
 {% include base_path %}
 
-## Journal Publications
+<h2>Journal Publications</h2>
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.path contains '_publications/journal' %}
+      <li>
+        {% include archive-single.html %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
-{% for post in site.publications reversed %}
-  {% if post.type == 'publications' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-## Conference Publications
-
-{% for post in site.publications reversed %}
-  {% if post.type == 'conference' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h2>Conference Publications</h2>
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.path contains '_publications/conference' %}
+      <li>
+        {% include archive-single.html %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 
 {% if site.author.googlescholar %}
