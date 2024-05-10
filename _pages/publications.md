@@ -7,15 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
+## Journal Publications
+
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.type == 'journal' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+## Conference Publications
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'conference' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Please refer to <a href="{{site.author.googlescholar}}">for a full list of my publications.</a>.</div>
+  <div class="wordwrap">Please refer to <a href="{{site.author.googlescholar}}">Google Scholar</a> for a full list of my publications.</div>
 {% endif %}
