@@ -48,7 +48,7 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl %}
-		  <div><a href="{{ page.paperurl }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Paper URL" }}</a></div>
+			<div><a href="{{ page.paperurl }}" class="btn">Paper URL</a></div>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
