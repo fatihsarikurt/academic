@@ -10,7 +10,7 @@ author_profile: true
 ## Journal Publications
 
 {% for post in site.publications reversed %}
-  {% if post.type == 'journal' %}
+  {% if post.type == 'publications' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
