@@ -24,7 +24,7 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Fatih S. Sarikurt, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. in Nuclear Engineering at Texas A&M University, Currently Principal Engineer at TerraPower and designing next generation nuclear reactor"
+  bio              : "Ph.D. in Nuclear Engineering at Texas A&M University, Currently Principal Engineer at TerraPower and working on next generation nuclear reactor development"
   location         : "Seattle, WA"
   employer         : #"TerraPower"
   uri              : # URL
@@ -258,7 +258,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
